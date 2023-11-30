@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1701382406.json",
+	"mirror_portraits": false,
+	"name": "You",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://textures/realtor.png"
+		}
+	],
+	"scale": 150,
+	"theme": ""
+}

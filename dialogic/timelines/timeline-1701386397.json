@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Hi! My name is Eyeleen Everwater! I saw the ad about the apartment for rent and wanted to apply! "
+		},
+		{
+			"choice": "ASK why she wants to rent",
+			"condition": "==",
+			"definition": "1701385396-648",
+			"event_id": "dialogic_011",
+			"value": "false"
+		},
+		{
+			"definition": "1701385396-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " So… we have many options for different monsters, of all kinds! What are you looking for?"
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well since I have 3 kids, I need something pretty spacious. Maybe 2 bedrooms and 2 bathrooms, a kitchen. Actually, just give me your cheapest option. It really can’t be too expensive."
+		},
+		{
+			"change_timeline": "timeline-1701386545.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1701386397.json",
+		"name": "timeline-1701386397.json"
+	}
+}

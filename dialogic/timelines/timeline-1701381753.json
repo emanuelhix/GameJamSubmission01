@@ -1,0 +1,149 @@
+{
+	"events": [
+		{
+			"background": "res://textures/gameSetting.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Hi! My name is Eyeleen Everwater! I saw the ad about the apartment for rent and wanted to apply! "
+		},
+		{
+			"choice": "ASK about her name",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eyeleen eh? Does that have anything to do with…"
+		},
+		{
+			"character": "character-1701380797.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m not sure what you’re talking about? The name is really common. "
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Okay… it just kinda sounded like it’s a play on how you look!"
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wha- How do I look?"
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fine! Never mind all that."
+		},
+		{
+			"choice": "ASK why she wants to rent",
+			"condition": "==",
+			"definition": "1701385396-648",
+			"event_id": "dialogic_011",
+			"value": "false"
+		},
+		{
+			"definition": "1701385396-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " So… we have many options for different monsters, of all kinds! What are you looking for?"
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well since I have 3 kids, I need something pretty spacious. Maybe 2 bedrooms and 2 bathrooms, a kitchen. Actually, just give me your cheapest option. It really can’t be too expensive."
+		},
+		{
+			"change_timeline": "timeline-1701386397.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "ASK about the noise",
+			"condition": "",
+			"definition": "1701386079-648",
+			"event_id": "dialogic_011",
+			"value": "false"
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They sound… lovely. How loud are they exactly?"
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "t’s really the baby Ella that cries alot and it's mostly from hearing all the arguing the other two kids make. The noise complaints… that’s the reason why we got kicked out of our last apartme–"
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Noise complaints?"
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Uh. I think I misspoke! Sure my kids can raise their voice at times but they understand that living in an apartment means they have to be quiet. "
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " I’m working with them on it! Um… Any more questions? "
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1701381753.json",
+		"name": "timeline-1701381753.json"
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"events": [
+		{
+			"background": "res://textures/introCutscene.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Congratulations! You have inherited the family business."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are a Landlord of a new apartment complex. Great...."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There's only one problem: the place is in poor shape already, and if it gets any worse, it may be shutdown by the health department."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In order to have a successful business, you'll need to decide which tenants seem trustworthy enough to rent."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Choosing great tenants will improve the popularity of your apartments, your earnings, and ultimately, its structural integrity."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Goodluck!"
+		},
+		{
+			"change_timeline": "timeline-1701381753.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1701383095.json",
+		"name": "timeline-1701383095.json"
+	}
+}

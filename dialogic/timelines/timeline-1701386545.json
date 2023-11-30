@@ -1,0 +1,47 @@
+{
+	"events": [
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Hi! My name is Eyeleen Everwater! I saw the ad about the apartment for rent and wanted to apply! "
+		},
+		{
+			"choice": "ASK about her kids",
+			"condition": "",
+			"definition": "1701385396-648",
+			"event_id": "dialogic_011",
+			"value": "true"
+		},
+		{
+			"character": "character-1701382406.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your kids! What are they like? "
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Well there’s Eric, Edith, and my latest addition is Ella. Eric likes to argue with Edith about anything and everything. They tend to play rough with each other, Y’know the way kids are! I wouldn’t have it any other way, they’ve brought so much meaning and light to my life. "
+		},
+		{
+			"character": "character-1701382316.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " I love them all, just the way they are."
+		},
+		{
+			"change_timeline": "timeline-1701386601.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1701386545.json",
+		"name": "timeline-1701386545.json"
+	}
+}
